@@ -36,14 +36,16 @@ This will write vocabulary and word vectors as a numpy matrix into the dir `data
 
 To train a graph convolutional neural network (GCN) model, run:
 ```
-bash train_gcn.sh 0
+chmod +x train_gcn.sh
+./train_gcn.sh 0
 ```
 
 Model checkpoints and logs will be saved to `./saved_models/00`.
 
 To train a Contextualized GCN (C-GCN) model, run:
 ```
-bash train_cgcn.sh 1
+chmod +x train_cgcn.sh
+./train_cgcn.sh 1
 ```
 
 Model checkpoints and logs will be saved to `./saved_models/01`.
